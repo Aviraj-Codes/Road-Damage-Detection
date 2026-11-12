@@ -1,0 +1,11 @@
+# Copy this to dataset/data.yaml. With no explicit `path`, Ultralytics uses
+# the folder containing data.yaml as the dataset root.
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: D00_longitudinal_crack
+  1: D10_transverse_crack
+  2: D20_alligator_crack
+  3: D40_pothole

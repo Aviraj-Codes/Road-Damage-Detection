@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+dataset/data.yaml
+dataset/**/images/
+dataset/**/labels/
+models/*.pt
+runs/
+results/*.csv
+results/*.png
+results/*.jpg
+results/*.mp4
